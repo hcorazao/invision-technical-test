@@ -1,0 +1,20 @@
+.body {
+  background: rgb(245 245 245);
+  height: 100%;
+}
+.toolbar {
+  background-image: url("../../../assets/toolbar.png");
+  background-position: center;
+  background-size: cover;
+  //   height: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & > p {
+    margin: 0;
+  }
+}
